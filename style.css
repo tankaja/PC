@@ -97,9 +97,9 @@ body::-webkit-scrollbar-thumb {
 /* Header */
 header {
     min-height: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
-    padding: 1rem 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -232,6 +232,7 @@ header {
     padding-right: 2rem;
     align-content: center;
     border-radius: 5px;
+    color: white;
     background-color: #dd415a;
     transform: 600ms;
 }
@@ -556,13 +557,14 @@ footer{
 }
 
 #footer-btn {
-    padding: 5px;
+    padding: 3px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
     color: white;
     background-color: #dd415a;
     transform: 600ms;
+    max-height: 45px;
 }
 
 #footer-btn:hover{
@@ -733,6 +735,11 @@ footer{
         height: 0px;
     }
 
+    .membership{
+        padding-right: 80px;
+        padding-left: 80px;
+    }    
+
     #mem-text p {
         padding-left: 30px;
         padding-right: 30px;
@@ -775,6 +782,20 @@ footer{
         padding-left: 100px;
     }
 
+    #centre-features-text {
+        padding-left: 80px;
+        padding-right: 80px;
+    }    
+
+    #app-ss-text {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .howitworks_text{
+        padding-left: 90px;
+    }
+
     #mem-text p {
         padding-left: 10px;
         padding-right: 10px;
@@ -805,15 +826,90 @@ footer{
         padding-left: 50px;
     }
 
+    #img-bg-text {
+        padding-left: 0;
+    }
+
     #subscribe p{
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    #centre-features-text {
+        padding-left: 40px;
+        padding-right: 40px;
+    }  
+
+    #app-ss-text {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #app-ss-text {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .membership{
+        padding-right: 40px;
+        padding-left: 40px;
+    }    
+
+    #mem-text p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .membership p{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #footer-email-input {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media(max-width: 420px){
+    .img-background {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    #img-bg-text {
+        padding-left: 0.7rem;
+    }
+    
+    #imgbgp {
+        max-width: 400px;
+    }
+
+    #email {
+        margin-right: 0;
+        min-width: 18rem;
+    }
+
+    .howitworks_text{
+        padding-left: 40px;
+    }
+
+    .membership{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #mem-text{
+        padding: 20px;
+    }
+
     .sidebar{
         width: 100%;
+    }
+
+    #app-ss-text {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     
