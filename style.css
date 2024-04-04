@@ -965,7 +965,7 @@ footer{
     }
 
     .img-background {
-        padding-right: 150px;
+        padding-right: 15px;
         padding-left: 15px;
     }
     
@@ -1038,7 +1038,7 @@ footer{
 @media(max-width: 330px){
 
     .img-background {
-        padding-right: 150px;
+        padding-right: 15px;
         padding-left: 15px;
     }
     
