@@ -907,6 +907,14 @@ footer{
         width: 100%;
     }
 
+    .sidebar li{
+        padding-left: 20px;
+    }
+
+    .sidebar .navbar{
+        padding-left: 20px;
+    }
+
     #app-ss-text {
         padding-left: 30px;
         padding-right: 30px;
