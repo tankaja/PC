@@ -1,5 +1,4 @@
 # Responsive Website Layout Assignment
----
 
 ## Introduction
 Welcome to this GitHub repository! This is a small assignment that I created for a job application, where the task was to develop a responsive website layout. I am sharing this project here to document my learnings and track my progress as I improve my web development skills.
